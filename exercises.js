@@ -191,8 +191,16 @@ console.log(notEqual(5, 5));
  * Console.log your result.
 */ 
 
+function spareChange(money) {
+	if (money>100){
+		return true 
+	} else {
+		return false
+	}
 
+}
 
+console.log(spareChange(90));
 /*
  * #9
  * Function - dirty30
