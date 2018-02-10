@@ -168,7 +168,17 @@ console.log(isEqual('pretty', 'pretty1'));
  * Console.log your result.
 */
 
+function notEqual(first, second) {
 
+	if (first!==second){
+		return "Opposites do attract.";
+
+	} else {
+		return "Cause it's like you're my mirror.";
+	}
+}
+
+console.log(notEqual(5, 5));
 /*
  * #8
  * Function - spareChange
