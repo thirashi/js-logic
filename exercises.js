@@ -193,9 +193,9 @@ console.log(notEqual(5, 5));
 
 function spareChange(money) {
 	if (money>100){
-		return true 
+		return true;
 	} else {
-		return false
+		return false;
 	}
 
 }
@@ -215,8 +215,16 @@ console.log(spareChange(90));
  * Console.log your result.
 */ 
 
+function dirty30(one, two, three) {
+	if((one+two+three)>30) {
+		return true;
 
+	} else {
+		return false;
+	}
+}
 
+console.log(dirty30(10,5,10));
 /*
  * #10
  * Function - evenStevens
@@ -228,7 +236,6 @@ console.log(spareChange(90));
  * The function will return true if the number passed in is an even integer, otherwise it will return false.
  * Console.log your result.
 */ 
-
 
 
 
