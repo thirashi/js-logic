@@ -304,6 +304,18 @@ console.log(graduation(100,100));
  * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
 */ 
+function moneyTrain(speed){
+
+	if(speed<50) {
+		return "You are riding Honolulu's Rail.";
+	} else if (speed>100)  {
+		return "You are riding an Amtrak";
+	}
+	else {
+		return "Now you ballin' in the Shinkansen!";
+	}
+}
+console.log(moneyTrain(120));
 
 
 /*
@@ -319,11 +331,62 @@ console.log(graduation(100,100));
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+var budget = 24;
+console.log(budget);
+
+var doughnutPrice = 3;
+console.log(doughnutPrice);
+
+var doughnutBought =1;
+console.log(doughnutBought);
+
+function buyDoughnut() {
+
+if (budget>=doughnutPrice){
+	budget -= doughnutPrice;
+	doughnutBought++;
+}
+
+}
+
+buyDoughnut();
+
+console.log('budget: ' + budget);
+console.log('doughnutBought: ' + doughnutBought);
+
+
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
 
+/*function dailySpecials(special) {
+
+switch (){
+	case "Monday";
+	text= "Loco Moco";
+	break;
+	case "Tuesday";
+	text= "Teri Beef Plate";
+	break;
+	case "Wednesday";
+	text= "Burger";
+	break;
+	case "Thursday";
+	text= "Steak Plate";
+	break;
+	case "Friday";
+	text= "Garlic Shrimp";
+	break;
+	case "Saturday";
+	text= "Pork Adobo";
+	break;
+	case "Sunday";
+	text= "Beef Stew";
+	break;
+}
+
+}
 
 
 /*
