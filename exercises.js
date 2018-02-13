@@ -52,7 +52,7 @@ console.log(currentAge);
  * Console.log your result.
 */
 function login(password) {
-	if (password==="test1234") {
+	if (password==="test1234") { 
 		return "Login Success!";
 	} else {
 		return "Login Failure";
@@ -72,7 +72,7 @@ console.log(login("test1234"));
  *  @return Datatype: Boolean
  *
  * The function will return true if the first number is greater than the second.
- * Console.log your result.
+ * Console.log your result.      
 */
 
 function isGreaterThan(first, second) {
@@ -331,7 +331,7 @@ console.log(moneyTrain(120));
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
-var budget = 24;
+/*var budget = 24;
 console.log(budget);
 
 var doughnutPrice = 3;
@@ -340,20 +340,19 @@ console.log(doughnutPrice);
 var doughnutBought =1;
 console.log(doughnutBought);
 
-function buyDoughnut() {
+buyDoughnut() {
 
 if (budget>=doughnutPrice){
 	budget -= doughnutPrice;
 	doughnutBought++;
 }
-
 }
 
 buyDoughnut();
 
 console.log('budget: ' + budget);
 console.log('doughnutBought: ' + doughnutBought);
-
+*/
 
 
 /*Final Boss*/
@@ -416,7 +415,17 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+/*for (var i = 0;  i<10; i ++){
+//your code
+}
+*/
+var playerSelection = ["Player: 1", "Player: 2", "Player: 3", "Player: 4", "Player: 5"];
+console.log(playerSelection.length);
 
+for (var i = 0;  i<playerSelection.length; i ++){
+	console.log("Logged in as " + playerSelection[i]);
+
+}
 /* 
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
