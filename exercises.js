@@ -451,7 +451,17 @@ console.log("My favorite food is " + myFavFoods[i]);
  * The function will loop through and add up all the values in the array that is passed into the function and return the total.
  * Console.log your result.
 */
+var numArray = [1,3,5,7,9];
+console.log(numArray);
 
+var total = 0;
+console.log(total);
+
+for (var i = 0;  i<numArray.length; i ++){
+
+console.log(total +=numArray[i]);
+
+}
 
 
 /*
